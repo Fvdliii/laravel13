@@ -11,6 +11,24 @@
 
 <body>
 
+    {{-- Nav --}}
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">unitama</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="{{ route('student.index') }}">Student</a>
+                    <a class="nav-link active" href="{{ route('department.index') }}">Department</a>
+                    <a class="nav-link active" href="{{ route('lecturer.index') }}">Lecturer</a>
+                </div>
+            </div>
+        </div>
+    </nav>
 
     {{-- page title --}}
 
@@ -28,5 +46,6 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
     </script>
 </body>
+
 
 </html>
