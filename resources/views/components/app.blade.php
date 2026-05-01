@@ -13,7 +13,7 @@
 
     {{-- Nav --}}
 
-    <nav class="navbar navbar-expand-lg bg-warning">
+    <nav class="navbar navbar-expand-lg bg-danger">
         <div class="container">
             <a class="navbar-brand" href="#">unitama</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
